@@ -12,11 +12,11 @@ jobs:
     steps:
     # 1. Clonar el repositorio
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     # 2. Configurar Terraform
     - name: Set up Terraform
-      uses: hashicorp/setup-terraform@v1
+      uses: hashicorp/setup-terraform@v3
       with:
         terraform_version: "1.4.6"
 
@@ -33,15 +33,57 @@ jobs:
       working-directory: ./infra
       run: terraform init
 
-    - name: Terraform Apply
+    - name: Terraform Plan
       working-directory: ./infra
-      run: terraform apply -auto-approve
+      run: terraform plan -out=tfplan
+      continue-on-error: false
 
-    # 5. Login en Azure CLI
-    - name: Azure Login
+    - name: Azure Login (for pre-checks)
       run: az login --service-principal -u ${{ secrets.AZURE_CLIENT_ID }} -p ${{ secrets.AZURE_CLIENT_SECRET }} --tenant ${{ secrets.AZURE_TENANT_ID }}
 
-    # 6. Instalar sqlcmd
+    - name: Wait for SQL Server to be ready
+      run: |
+        echo "Checking if SQL Server is ready..."
+        max_wait=300  # 5 minutes
+        wait_time=0
+        while [ $wait_time -lt $max_wait ]; do
+          # Check if server is available and not busy
+          server_status=$(az sql server show --name serverproyectoin --resource-group recursosproyecto --query "state" -o tsv 2>/dev/null || echo "NotFound")
+          if [ "$server_status" = "Ready" ] || [ "$server_status" = "NotFound" ]; then
+            echo "SQL Server is ready or doesn't exist yet. Proceeding..."
+            break
+          else
+            echo "SQL Server is in state: $server_status. Waiting..."
+            sleep 30
+            wait_time=$((wait_time + 30))
+          fi
+        done
+
+    - name: Terraform Apply with Retry
+      working-directory: ./infra
+      run: |
+        max_attempts=5
+        attempt=1
+        while [ $attempt -le $max_attempts ]; do
+          echo "Attempt $attempt of $max_attempts"
+          if terraform apply tfplan; then
+            echo "Terraform apply succeeded on attempt $attempt"
+            break
+          else
+            echo "Terraform apply failed on attempt $attempt"
+            if [ $attempt -eq $max_attempts ]; then
+              echo "All attempts failed"
+              exit 1
+            fi
+            echo "Waiting 60 seconds before retry..."
+            sleep 60
+            # Regenerate plan for retry
+            terraform plan -out=tfplan
+            attempt=$((attempt + 1))
+          fi
+        done
+
+    # 5. Instalar sqlcmd
     - name: Install sqlcmd tools
       run: |
         curl https://packages.microsoft.com/keys/microsoft.asc | sudo tee /etc/apt/trusted.gpg.d/microsoft.asc
@@ -49,7 +91,4 @@ jobs:
         sudo apt-get update
         sudo ACCEPT_EULA=Y apt-get install -y mssql-tools unixodbc-dev
 
-    # 7. Ejecutar script de INSERTS
-    - name: Run INSERTS script
-      run: |
-        /opt/mssql-tools/bin/sqlcmd -S tcp:${{ secrets.SQL_SERVER_NAME }}.database.windows.net -d ${{ secrets.DATABASE_NAME }} -U ${{ secrets.SQL_ADMIN }} -P "${{ secrets.SQL_PASSWORD }}" -i ./scripts/inserts.sql
+   
