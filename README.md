@@ -34,6 +34,9 @@ Accede al dashboard de Power BI para explorar las visualizaciones y análisis de
 
 🔗 **[Ver Dashboard en Power BI](https://app.powerbi.com/groups/me/reports/ff558cdc-1051-474b-9992-e91c2c06a806?ctid=b6b466ee-468d-4011-b9fc-fbdcf82ac90a&pbi_source=linkShare)**
 
+![Dashboard Captura 1](media/01.jpg)
+
+![Dashboard Captura 2](media/02.jpg)
 ---
 
 ## 👥 Integrantes
