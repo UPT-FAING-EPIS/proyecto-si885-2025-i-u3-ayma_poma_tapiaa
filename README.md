@@ -20,12 +20,19 @@ Muchos estudiantes universitarios enfrentan dificultades al momento de elegir un
 
 -Permitir la visualización clara de la cantidad de tesis por categoría, titulos de tesis filtrados y las tecnologías utilizadas en cada una.
 
-
 ---
 
 ## ✅ Objetivos Secundarios
 
 - Analizar la evolución temporal del uso de tecnologías en las tesis para identificar tendencias y cambios significativos a lo largo del tiempo.
+
+---
+
+## 📊 Dashboard Interactivo
+
+Accede al dashboard de Power BI para explorar las visualizaciones y análisis de datos:
+
+🔗 **[Ver Dashboard en Power BI](https://app.powerbi.com/groups/me/reports/ff558cdc-1051-474b-9992-e91c2c06a806?ctid=b6b466ee-468d-4011-b9fc-fbdcf82ac90a&pbi_source=linkShare)**
 
 ---
 
