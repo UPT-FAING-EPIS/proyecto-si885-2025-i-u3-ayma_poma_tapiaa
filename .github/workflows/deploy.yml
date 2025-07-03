@@ -83,6 +83,7 @@ jobs:
           fi
         done
 
+
     # 5. Instalar sqlcmd
     - name: Install sqlcmd tools
       run: |
