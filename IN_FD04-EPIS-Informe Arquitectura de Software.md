@@ -1,4 +1,4 @@
-﻿![](Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.001.png)
+﻿![](media/Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.001.png)
 
 **UNIVERSIDAD PRIVADA DE TACNA** 
 
@@ -17,7 +17,7 @@ Poma Machicado, Fabiola Estefani (2021070030) Tapia Vargas, Dylan Yariet (202107
 
 **Tacna – Perú *2025*** 
 
-![](Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.002.png)
+![](media/Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.002.png)
 |CONTROL DE VERSIONES ||||||
 | - | :- | :- | :- | :- | :- |
 |Versión |Hecha por |Revisada por |Aprobada por |Fecha |Motivo |
@@ -133,110 +133,110 @@ Tecnología: Herramientas, lenguajes o plataformas utilizadas en el desarrollo d
 1. Vista<a name="_page6_x85.05_y175.79"></a> de Caso de uso* 
 3. Diagramas<a name="_page6_x85.05_y196.29"></a> de Casos de uso 
 
-![](Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.003.jpeg)
+![](media/Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.003.jpeg)
 
 2. Vista<a name="_page6_x85.05_y577.43"></a> Lógica* 
 1. Diagrama<a name="_page6_x85.05_y608.41"></a> de Subsistemas (paquetes) 
 
-![](Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.004.jpeg)
+![](media/Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.004.jpeg)
 
 2. Diagrama<a name="_page7_x85.05_y106.77"></a> de Secuencia (vista de diseño) 
 
 UC01: Visualizar categorías de tesis en gráfico circular 
 
-![](Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.005.png)
+![](media/Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.005.png)
 
 UC02: Explorar títulos de tesis por categoría 
 
-![](Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.006.png)
+![](media/Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.006.png)
 
 UC03: Visualizar tecnologías usadas por tesis 
 
-![](Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.007.png)
+![](media/Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.007.png)
 
 UC04: Analizar la evolución de tecnologías 
 
-![](Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.008.png)
+![](media/Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.008.png)
 
 UC05: Explorar tesis por tecnología 
 
-![](Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.009.png)
+![](media/Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.009.png)
 
 UC06: Comparar universidades por categoría de tesis 
 
-![](Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.010.png)
+![](media/Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.010.png)
 
 UC07: Aplicar filtros personalizados 
 
-![](Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.011.png)
+![](media/Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.011.png)
 
 UC08: Acceso directo al dashboard Power BI 
 
-![](Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.012.png)
+![](media/Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.012.png)
 
 3. Diagrama<a name="_page11_x85.05_y70.85"></a> de Colaboración (vista de diseño) 
 3. Diagrama<a name="_page11_x85.05_y107.83"></a> de Objetos 
 
 UC01: Visualizar categorías de tesis en gráfico circular 
 
-![](Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.013.png)
+![](media/Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.013.png)
 
 UC02: Explorar títulos de tesis por categoría 
 
-![](Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.014.png)
+![](media/Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.014.png)
 
 UC03: Visualizar tecnologías usadas por tesis 
 
-![](Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.015.png)
+![](media/Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.015.png)
 
 UC04: Analizar la evolución de tecnologías 
 
-![](Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.016.png)
+![](media/Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.016.png)
 
 UC05: Explorar tesis por tecnología 
 
-![](Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.017.png)
+![](media/Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.017.png)
 
 UC06: Comparar universidades por categoría de tesis 
 
-![](Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.018.png)
+![](media/Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.018.png)
 
 UC07: Aplicar filtros personalizados 
 
-![](Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.019.png)
+![](media/Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.019.png)
 
 UC08: Acceso directo al dashboard Power BI 
 
-![](Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.020.png)
+![](media/Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.020.png)
 
 5. Diagrama<a name="_page12_x85.05_y70.85"></a> de Clases 
 
-   ![](Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.021.jpeg)
+   ![](media/Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.021.jpeg)
 
 6. Diagrama<a name="_page12_x85.05_y415.51"></a> de Base de datos 
 
-![](Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.022.jpeg)
+![](media/Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.022.jpeg)
 
 3. Vista<a name="_page13_x85.05_y70.85"></a> de Implementación (vista de desarrollo) 
 1. Diagrama<a name="_page13_x85.05_y85.34"></a> de arquitectura software (paquetes) 
 
-![](Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.023.jpeg)
+![](media/Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.023.jpeg)
 
 2. Diagrama<a name="_page13_x85.05_y412.88"></a> de arquitectura del sistema (Diagrama de componentes) 
 
-   ![](Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.024.png)
+   ![](media/Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.024.png)
 
 4. Vista<a name="_page14_x85.05_y70.85"></a> de procesos* 
 
    <a name="_page14_x85.05_y85.34"></a>3.4.1. Diagrama de Procesos del sistema (diagrama de actividad) 
 
-![](Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.025.jpeg)
+![](media/Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.025.jpeg)
 
 5. Vista<a name="_page15_x85.05_y70.85"></a> de Despliegue (vista física) 
 
    <a name="_page15_x85.05_y85.34"></a>3.5.1. Diagrama de despliegue 
 
-![](Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.026.jpeg)
+![](media/Aspose.Words.06cc90cb-98b6-481e-b95d-bd6559eb1cd5.026.jpeg)
 
 4. **ATRIBUTOS<a name="_page16_x85.05_y70.85"></a> DE CALIDAD DEL SOFTWARE** <a name="_page16_x85.05_y85.34"></a>**Escenario de Funcionalidad** 
 

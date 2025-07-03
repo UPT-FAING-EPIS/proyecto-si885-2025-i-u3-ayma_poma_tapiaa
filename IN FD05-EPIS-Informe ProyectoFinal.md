@@ -1,4 +1,4 @@
-﻿![](Aspose.Words.82095b02-b8f8-41d3-8271-699bfa10c704.001.png)
+﻿![](media/Aspose.Words.82095b02-b8f8-41d3-8271-699bfa10c704.001.png)
 
 **UNIVERSIDAD PRIVADA DE TACNA** 
 
@@ -23,7 +23,7 @@ Poma Machicado, Fabiola Estefani (2021070030) Tapia Vargas, Dylan Yariet (202107
 
 ***2025***
 
-![](Aspose.Words.82095b02-b8f8-41d3-8271-699bfa10c704.002.png)
+![](media/Aspose.Words.82095b02-b8f8-41d3-8271-699bfa10c704.002.png)
 |CONTROL DE VERSIONES ||||||
 | - | :- | :- | :- | :- | :- |
 |Versión |Hecha por |Revisada por |Aprobada por |Fecha |Motivo |
@@ -148,7 +148,7 @@ El  uso  de  Terraform  facilitará  la  integración  continua  y  el  versiona
 |Azure Blob Storage (50 GB) |Azure |S/. 7.50 |
 |Total mensual estimado ||S/. 25.2 |
 
-![](Aspose.Words.82095b02-b8f8-41d3-8271-699bfa10c704.003.jpeg)
+![](media/Aspose.Words.82095b02-b8f8-41d3-8271-699bfa10c704.003.jpeg)
 
 **Factibilidad Económica** 
 

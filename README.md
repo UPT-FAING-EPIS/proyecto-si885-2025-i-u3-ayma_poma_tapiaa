@@ -1,6 +1,6 @@
 # 🎓 Título del Proyecto
 
-**Análisis de Datos de Tesis Universitarias para Guiar a Estudiantes en la Elección de Temas y Tecnologías**
+**Dashboard interactivo para el análisis de tendencias y la visualización de tecnologías aplicables a temas de tesis en Ingeniería de Sistemas**
 
 ---
 
@@ -26,8 +26,6 @@ Muchos estudiantes universitarios enfrentan dificultades al momento de elegir un
 ## ✅ Objetivos Secundarios
 
 - Analizar la evolución temporal del uso de tecnologías en las tesis para identificar tendencias y cambios significativos a lo largo del tiempo.
-- Identificar las universidades que destacan en cantidad de tesis por la categoria de tesis de interes.
-
 
 ---
 
@@ -38,14 +36,6 @@ Muchos estudiantes universitarios enfrentan dificultades al momento de elegir un
 | Erick Yoel Ayma Choque               | 2021072616  |
 | Fabiola Estefani Poma Machicado      | 2021070030  |
 | Dylan Yariet Tapia Vargas            | 2021072630  |
-
----
-
-## 📋 Control de Versiones
-
-| Versión | Hecha por | Revisada por | Aprobada por | Fecha      | Motivo                      |
-| ------- | --------- | ------------ | ------------ | ---------- | --------------------------- |
-| 1.0     | EYA       | FPM          | DTV          | 10/06/2025 | Versión Inicial del Proyecto |
 
 ---
 

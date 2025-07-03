@@ -21,7 +21,7 @@ Poma Machicado, Fabiola Estefani (2021070030) Tapia Vargas, Dylan Yariet (202107
 
 ***2025***
 
-![](Aspose.Words.8e9d2a6e-b948-4052-b037-85b55787c01c.002.png) ![ref2]
+![](media/Aspose.Words.8e9d2a6e-b948-4052-b037-85b55787c01c.002.png) ![ref2]
 
 **Dashboard interactivo para el análisis de tendencias y la visualización de tecnologías aplicables a temas de tesis en Ingeniería de Sistemas** 
 # **Informe de Factibilidad** 
@@ -162,7 +162,7 @@ El  uso  de  Terraform  facilitará  la  integración  continua  y  el  versiona
 |Azure Blob Storage (50 GB) |Azure |S/. 7.50 |
 |Total mensual estimado ||S/. 25.2 |
 
-![](Aspose.Words.8e9d2a6e-b948-4052-b037-85b55787c01c.004.jpeg)
+![](media/Aspose.Words.8e9d2a6e-b948-4052-b037-85b55787c01c.004.jpeg)
 
 2. Factibilidad<a name="_page8_x85.05_y84.96"></a> Económica 
 
@@ -353,5 +353,5 @@ Finalmente, este sistema sienta las bases para futuras investigaciones o desarro
 similares que puedan aplicarse a otras carreras profesionales o universidades del país. De este modo, contribuye no solo a la mejora de la formación académica, sino también al fortalecimiento del vínculo entre la educación superior y las exigencias del mundo laboral y tecnológico actual. 
 16 
 
-[ref1]: Aspose.Words.8e9d2a6e-b948-4052-b037-85b55787c01c.001.png
-[ref2]: Aspose.Words.8e9d2a6e-b948-4052-b037-85b55787c01c.003.png
+[ref1]: media/Aspose.Words.8e9d2a6e-b948-4052-b037-85b55787c01c.001.png
+[ref2]: media/Aspose.Words.8e9d2a6e-b948-4052-b037-85b55787c01c.003.png
